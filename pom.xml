@@ -89,19 +89,6 @@
 		</plugins>
 	</build>
 	
-	<repositories>
-		<repository>
-			<id>deployment</id>
-			<name>libs-release</name>
-			<url>http://18.219.8.35:8081/nexus/content/artifactory/libs-release</url>
-		</repository>
-		<repository>
-			<id>public</id>
-			<name>public</name>
-			<url>http://18.219.8.35:8081/nexus/content/groups/public/</url>
-		</repository>
-	</repositories>
-	
 	<distributionManagement>
 		<repository>
 			<id>deployment</id>
